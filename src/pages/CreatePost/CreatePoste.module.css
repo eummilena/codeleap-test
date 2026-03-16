@@ -1,0 +1,15 @@
+.section{
+    display: flex;
+    flex-direction: column;
+    margin: 1em;
+    border: 1px solid #999;
+    border-radius: 8px;
+    gap: 1em;
+    padding: 1em;
+
+}
+
+.area{
+display: flex;
+align-self: flex-end;
+}

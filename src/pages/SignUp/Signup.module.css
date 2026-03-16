@@ -1,0 +1,23 @@
+.section{
+    display: flex;
+   flex-direction: column;
+   justify-content: center;
+   height: 100vh;
+}
+.areaEnter{
+ background-color: var(--white);
+    padding: 1em;
+    border-radius: 16px;
+    border: 1px solid #ccc;
+}
+.area{
+    display: flex;
+    align-self: flex-end;
+}
+
+
+.button{
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
