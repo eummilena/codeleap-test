@@ -3,6 +3,7 @@ import Button from "../../components/Button"
 import Input from "../../components/Input"
 import styles from "./Signup.module.css"
 import { useNavigate } from "react-router-dom"
+import Head from "../../components/Head"
 
 const Signup = () => {
 
@@ -21,6 +22,7 @@ const Signup = () => {
 
     return (
         <section className={styles.section}>
+            <Head title="Sign up" />
             <div className={styles.areaEnter}>
                 <h1>Welcome to CodeLeap network!</h1>
                 <form onSubmit={handleSubmit}>

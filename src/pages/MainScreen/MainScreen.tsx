@@ -3,6 +3,7 @@ import CreatePost from "../CreatePost/CreatePost"
 import Post from "../Post/Post"
 import Loading from "../../components/Loading"
 import { useUi } from "../../context/UserContext"
+import Head from "../../components/Head"
 
 
 const MainScreen = () => {
@@ -11,6 +12,7 @@ const MainScreen = () => {
 
     return (
         <main className={styles.feed}>
+            <Head title="Feed" />
             <Loading loading={loading}></Loading>
             <header className={styles.header}>
                 <h2 className={styles.title}>CodeLeap Network</h2>

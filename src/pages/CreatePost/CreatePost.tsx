@@ -10,6 +10,7 @@ const CreatePost = ({ username }: { username?: string | null }) => {
 
     const { title, content, setContent, setLoading, loading, setTitle, fetchPosts } = useUi();
 
+
     const handleSubmit = async (e: React.FormEvent) => {
         e.preventDefault();
 
